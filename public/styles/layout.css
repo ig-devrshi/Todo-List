@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    background-color: rgb(211, 161, 255);
+}
+
+.container {
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 5rem;
+    background-color: rgb(130, 0, 174);
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.tasks{
+    box-sizing: border-box;
+    background-color: rgb(236, 214, 255);
+    color:rgb(40, 40, 40);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2rem;
+    padding: 2rem;
+    min-height: 70px;
+    font-size: 20px;
+    border-radius: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.tasks ul{
+    list-style: none;
+}
+input[type="checkbox"]{
+    margin: 2rem;
+}
+
+input[type="checkbox"]:checked + p{     
+    text-decoration: line-through;
+    text-decoration-color: rgb(60, 0, 88) ;
+}
+
+.tasks li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem;
+    border-bottom: 1px solid rgb(237, 179, 255);
+}
+#wrapper{
+    margin-left: 2rem;
+    
+}
+
+input{
+    padding: 1em 0em 1em 4em;
+    border: none;
+    border-radius: 1rem;
+    font-size: 20px;
+    margin-top: 1em ;
+}
+button{
+    background-color: rgb(107, 0, 146);
+    font-size: 15px;
+    color: white;
+    padding: 1.5em;
+    border-radius: 2em;
+    border: none;
+    margin: 0.5em;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(145, 1, 193);
+    transition: 2ms;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+span{
+    font-size: 9px;
+    color: blueviolet;
+    margin-top: 0;
+    margin-left: 1em;
+}
